@@ -1,0 +1,63 @@
+title: Stackbit Fresh Theme
+baseURL: /
+params:
+  description: Personal blogging theme for Stackbit
+  layout_style: overflow
+  palette: blue
+  header:
+    title: Kevork Keheian
+    tagline: "Full-Time Data Analyst \U0001F601\r\nPart-Time Developer \U0001F60E "
+    profile_img: >-
+      https://res.cloudinary.com/practicaldev/image/fetch/s--OLXwfxZB--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/291243/894307de-4bf0-460e-8ee7-f690a71a7da2.png
+    background: dark
+    has_nav: true
+    nav_links:
+      - label: Home
+        url: /
+        style: link
+      - label: Blog
+        url: /blog/
+        style: link
+      - label: Style Guide
+        url: /style-guide/
+        style: link
+      - label: About
+        url: /about/
+        style: link
+      - label: Contact
+        url: /contact/
+        style: link
+    has_social: true
+    social_links:
+      - label: Twitter
+        url: 'https://twitter.com/KKeheian'
+        style: icon
+        icon_class: fa-twitter
+        new_window: true
+      - label: GitHub
+        url: 'https://github.com/kevorkkeheian'
+        style: icon
+        icon_class: fa-github
+        new_window: true
+      - label: DEV
+        url: 'https://dev.to/kevorkkeheian'
+        style: icon
+        icon_class: fa-dev
+        new_window: true
+  footer:
+    content: '&copy; All rights reserved.'
+    links:
+      - label: Made with Stackbit.
+        url: 'https://www.stackbit.com'
+        style: link
+        new_window: true
+      - label: Generated from DEV
+        url: 'https://dev.to/connecting-with-stackbit'
+        new_window: true
+        style: link
+taxonomies:
+  stub: stub
+disableKinds:
+  - RSS
+  - taxonomy
+  - taxonomyTerm
