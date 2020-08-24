@@ -31,5 +31,29 @@
         <!-- Scripts -->
         <script src="{{ "assets/js/plugins.js" | relURL }}"></script>
         <script src="{{ "assets/js/main.js" | relURL }}"></script>
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAiiGgDdxbscs0phBQXOEMM-91CNqOvra0",
+    authDomain: "kevork-keheian.firebaseapp.com",
+    databaseURL: "https://kevork-keheian.firebaseio.com",
+    projectId: "kevork-keheian",
+    storageBucket: "kevork-keheian.appspot.com",
+    messagingSenderId: "26742380149",
+    appId: "1:26742380149:web:96330f41a8aa130ac6ca3c",
+    measurementId: "G-YGWG0M8FQ7"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
     </body> 
 </html>
