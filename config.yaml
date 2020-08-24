@@ -1,4 +1,4 @@
-title: Stackbit Fresh Theme
+title: Kevork Keheian's Blog
 baseURL: /
 params:
   description: Personal blogging theme for Stackbit
@@ -23,6 +23,9 @@ params:
         style: link
       - label: About
         url: /about/
+        style: link
+      - label: Reports
+        url: https://reports.keheian.me
         style: link
       - label: Contact
         url: /contact/
