@@ -18,14 +18,14 @@ params:
       - label: Blog
         url: /blog/
         style: link
-      - label: Style Guide
-        url: /style-guide/
-        style: link
-      - label: About
-        url: /about/
-        style: link
+      # - label: Style Guide
+      #   url: /style-guide/
+      #   style: link
+      # - label: Projects
+      #   url: /about/
+      #   style: link
       - label: Reports
-        url: https://reports.keheian.me
+        url: https://datanalys.ml
         style: link
       - label: Contact
         url: /contact/
@@ -49,15 +49,15 @@ params:
         new_window: true
   footer:
     content: '&copy; All rights reserved.'
-    links:
-      - label: Made with Stackbit.
-        url: 'https://www.stackbit.com'
-        style: link
-        new_window: true
-      - label: Generated from DEV
-        url: 'https://dev.to/connecting-with-stackbit'
-        new_window: true
-        style: link
+    # links:
+    #   - label: Made with Stackbit.
+    #     url: 'https://www.stackbit.com'
+    #     style: link
+    #     new_window: true
+    #   - label: Generated from DEV
+    #     url: 'https://dev.to/connecting-with-stackbit'
+    #     new_window: true
+    #     style: link
 taxonomies:
   stub: stub
 disableKinds:

@@ -1,11 +1,15 @@
 {{ $section := .section }}
 <section id="{{ $section.section_id }}" class="block block-hero">
   {{ if $section.title }}
-  <h1 class="block-title inner-sm">{{ $section.title }}</h1>
+  
+  <h1 class="block-title inner-sm">{{ $section.title }}
+    <div id="typewriter"></div>
+  </h1>
   {{ end }}
   {{ if $section.content }}
   <div class="block-content inner-sm">
     {{ partial "markdownify-block" $section.content }}
+    
   </div>
   {{ end }}
   {{ if $section.actions }}

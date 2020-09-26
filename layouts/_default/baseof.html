@@ -13,6 +13,8 @@
         <link rel="canonical" href="{{ $.Params.canonical_url }}"/>
         {{ end }}
         {{ end }}
+
+        
         
     </head>
     <body>
@@ -22,7 +24,9 @@
           <div id="content" class="site-content">
             <div class="inner">
               <main id="main" class="site-main">
+                <!-- <div id="typewriter"></div> -->
                 {{ block "content" . }}{{ end }}
+                
               </main><!-- .site-main -->
               {{ partial "footer.html" . }}
             </div><!-- .inner -->
@@ -39,6 +43,8 @@
      https://firebase.google.com/docs/web/setup#available-libraries -->
 <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-analytics.js"></script>
 
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
 <script>
   // Your web app's Firebase configuration
   var firebaseConfig = {
@@ -54,6 +60,28 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
+
+
+  //Typewirter.js
+  const instance = new Typewriter('#typewriter', {
+    loop: true
+});
+
+instance
+    .deleteAll()
+    .typeString("Hello World! 👋")
+    .pauseFor(500)
+    .deleteAll()
+    .typeString("I'm Kevork Keheian")
+    .pauseFor(500)
+    .deleteChars(14)
+    .typeString('a Data Analyst')
+    .pauseFor(500)
+    .deleteChars(12)
+    .typeString('Full Stack web developer')
+    .pauseFor(500)
+    .deleteAll()
+    .start();
 </script>
     </body> 
 </html>

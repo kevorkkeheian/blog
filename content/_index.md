@@ -4,18 +4,14 @@ hide_title: true
 sections:
   - section_id: hero
     type: section_hero
-    title: 'Hi 👋, I''m Kevork Keheian '
+    title: ' '
     content: >-
-      This section can contain a subtitle or tagline. The recommended length is
-      one to three sentences, but can be changed as you prefer.
+      
   - section_id: about
     type: section_content
     title: About
     content: >-
-      This is the "about" excerpt. It can be used to provide a paragraph about
-      yourself that people can read on the homepage to get a sense of who you
-      are. There also exists a dedicated about page where you can write more
-      about yourself for those who are interested.
+      I have started my path as a self tought web developer. Learned a few programming languages like C# and Python to pay a little bit with the backend side of the development. But I found my passion in data and analysis.
     actions:
       - label: Contact Me
         url: /contact
